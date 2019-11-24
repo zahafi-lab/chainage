@@ -1,0 +1,36 @@
+{
+  "name": "sspk",
+  "version": "0.3.0",
+  "description": "Project allowing to retrieve ssh public keys",
+  "bin": {
+    "sspk": "bin/run.js"
+  },
+  "main": "lib/sspk.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "tap test/*.js",
+    "test:coverage": "tap test/*.js --cov"
+  },
+  "author": "Eric HENRY",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-henry/sspk.git"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^5.11.0",
+    "eslint-config-usecases": "^1.2.2",
+    "tap": "^12.1.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "joi": "^14.3.0",
+    "js-yaml": "^3.10.0",
+    "request": "^2.88.0"
+  }
+}
