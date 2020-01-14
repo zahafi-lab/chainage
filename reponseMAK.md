@@ -1,4 +1,6 @@
- "acorn@6.0.4"
+$ grep -R "_from" node_modules/**/package.json | cut -d ':' -f3 | sort -h | uniq > reponseMAK.md   
+
+"acorn@6.0.4"
  "acorn-jsx@5.0.1"
  "ajv@6.6.2"
  "ansicolors@0.3.2",
